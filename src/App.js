@@ -1,13 +1,16 @@
 import React from 'react';
-import './App.css';
 import CounterExample from './Components/CounterExample';
+import Footer from './Components/Footer';
+import Header from './Components/header';
 import HellowWorld from './Components/HelloWorld';
 
 function App() {
   return (
     <div>
+      <Header/>
       <HellowWorld name="Technical University of Kaiserslautern"/>
-      <CounterExample/>
+      <Footer/>
+      {/* <CounterExample/> */}
     </div>
   );
 }
