@@ -9,6 +9,7 @@ import Header from './Components/header';
 import Home from './Views/Home';
 import About from './Views/About';
 import Product from './Views/Product';
+import Dashboard from './Views/Dashboard';
 
 
 function App() {
@@ -26,6 +27,9 @@ function App() {
             </Route>
             <Route path="/products/:id">
                <Product/>
+            </Route>
+            <Route path="/dashboard">
+               <Dashboard/>
             </Route>
           </Switch>
         </div>
