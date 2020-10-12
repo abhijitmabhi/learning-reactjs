@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useAxiosGet } from '../Hooks/HttpRequests';
-import Loader from './Loader';
+import Loader from '../Components/Loader';
 
 function Product(props) {
     const {id} = useParams();

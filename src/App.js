@@ -8,7 +8,7 @@ import Footer from './Components/Footer';
 import Header from './Components/header';
 import Home from './Views/Home';
 import About from './Views/About';
-import Product from './Components/Product';
+import Product from './Views/Product';
 
 
 function App() {
